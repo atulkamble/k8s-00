@@ -27,5 +27,11 @@ kubectl apply -f service.yaml
 kubectl get services
 kubectl get pods
 kubectl describe pod my-deployment-cfb4dd9fc-lmb6v
+kubectl get services
+kubectl get deployments
+kubectl scale deployment my-deployment --replicas=5
+kubectl get pods
+kubectl scale deployment my-deployment --replicas=2
+kubectl get pods
 ```
 
