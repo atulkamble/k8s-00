@@ -1,6 +1,6 @@
 # k8s-00
 kubernetes-practice
-
+```
 Clear-History
 cd D:/project
 mkdir k8s-00
@@ -27,4 +27,5 @@ kubectl apply -f service.yaml
 kubectl get services
 kubectl get pods
 kubectl describe pod my-deployment-cfb4dd9fc-lmb6v
+```
 
