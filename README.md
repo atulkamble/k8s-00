@@ -1,6 +1,7 @@
 # k8s-00
 kubernetes-practice
 
+Clear-History
 cd D:/project
 mkdir k8s-00
 cd k8s-00
@@ -16,4 +17,14 @@ git add .
 git status
 git commit -m "added deployemnt and service files"
 git push origin main
+kubectl get nodes
+kubectl get pods
+kubectl apply -f deployment.yaml
+kubectl get pods
+kubectl get services
+kubectl apply -f services.yaml
+kubectl apply -f service.yaml
+kubectl get services
+kubectl get pods
+kubectl describe pod my-deployment-cfb4dd9fc-lmb6v
 
